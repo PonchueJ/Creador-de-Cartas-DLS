@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Renogare';
+    src: url('Renogare-Regular.woff') format('woff');
+}
+
+body {
+	background-image: url('assets/site/bg.png');
+	background-position: center;
+	background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: 'Renogare';
+    text-align: center;
+    color: #ffffff;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+header {
+	padding: 20px;
+}
+
+select, input {
+	border: none;
+	border-radius: 2.5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	font-size: 15px;
+	font-family: 'Renogare';
+	margin: 2px;
+}
+
+footer {
+	background-color: #3a3e61;
+	padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+	padding: 5px;
+	width: 40px;
+	height: 40px;
+}
+
+input[type=file] {
+    width: 20%;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+	opacity: 1;
+}
